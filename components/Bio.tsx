@@ -14,10 +14,10 @@ export default function Bio() {
       <dl>Education</dl>
 
       <dt>M.S., <a href="https://www.waseda.jp">Waseda University</a>, Tokyo, Japan. (Apr 2004 - Mar 2006)</dt>
-      <dd>Graduated with a Master's degree in Information and Computer Science</dd>
+      <dd>Graduated with a Master&apos;s degree in Information and Computer Science</dd>
 
       <dt>B.S., <a href="https://www.waseda.jp">Waseda University</a>, Tokyo, Japan. (Apr 2000 - Mar 2004)</dt>
-      <dd>Graduated with a Bachelor's degree in Information and Computer Science</dd>
+      <dd>Graduated with a Bachelor&apos;s degree in Information and Computer Science</dd>
 
       <dl>On the web services</dl>
       <ul>
