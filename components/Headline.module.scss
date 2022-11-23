@@ -1,0 +1,26 @@
+.headline {
+  text-align: center;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  h1 {
+    margin: 0 0 0 1rem;
+    line-height: 1.15;
+    font-size: 3rem;
+    display: flex;
+  }
+
+  .avatar {
+    border-radius: 9999px;
+    display: flex;
+  }
+
+  @media screen and (max-width:600px) {
+    h1 {
+      font-size: 2rem;
+    }
+  }
+}
+
