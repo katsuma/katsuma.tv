@@ -1,7 +1,7 @@
-import Header from '../components/Header/Header'
-import Footer from '../components/Footer/Footer'
-import Bio from '../components/Bio/Bio'
-import Headline from '../components/Headine/Headline'
+import Header from '../components/Header'
+import Footer from '../components/Footer'
+import Bio from '../components/Bio'
+import Headline from '../components/Headine'
 
 import styles from '../styles/Home.module.scss'
 
