@@ -1,9 +1,8 @@
-import Header from '../components/Header'
-import Footer from '../components/Footer'
-import Bio from '../components/Bio'
-import Headline from '../components/Headine'
-
-import styles from '../styles/Home.module.scss'
+import Header from 'src/components/Header'
+import Footer from 'src/components/Footer'
+import Bio from 'src/components/Bio'
+import Headline from 'src/components/Headline'
+import styles from 'src/styles/Home.module.scss'
 
 export default function Home() {
   return (

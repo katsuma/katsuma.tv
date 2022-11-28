@@ -1,6 +1,6 @@
 import Image from 'next/image';
-import avatar from '../../../public/me.jpg';
-import styles from './Headline.module.scss';
+import avatar from 'public/me.jpg';
+import styles from 'src/components/Headline/Headline.module.scss';
 
 export default function Headline() {
   return (

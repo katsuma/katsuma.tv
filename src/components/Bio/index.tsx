@@ -1,4 +1,4 @@
-import styles from './Bio.module.scss'
+import styles from 'src/components/Bio/Bio.module.scss'
 
 export default function Bio() {
   return (
