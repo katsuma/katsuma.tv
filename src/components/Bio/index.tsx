@@ -30,7 +30,7 @@ export default function Bio() {
       <h2>On the web services</h2>
       <ul>
         <li><a href="https://blog.katsuma.tv">Blog</a></li>
-        <li><a href="https://twitter.com/ryo_katsuma">Twitter</a></li>
+        <li><a href="https://x.com/ryo_katsuma">X</a></li>
         <li><a href="https://github.com/katsuma">GitHub</a></li>
         <li><a href="https://facebook.com/katsuma">Facebook</a></li>
         <li><a href="https://speakerdeck.com/katsuma">Speaker Deck</a></li>
