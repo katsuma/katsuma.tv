@@ -37,7 +37,6 @@ export default function Bio() {
         <li><a href="https://linkedin.com/katsuma">LinkedIn</a></li>
         <li><a href="https://www.wantedly.com/id/ryo_katsuma">Wantedly</a></li>
         <li><a href="https://instagram.com/katsuma">Instagram</a></li>
-        <li><a href="https://sumally.com/katsuma">Sumally</a></li>
       </ul>
     </div>
   );
