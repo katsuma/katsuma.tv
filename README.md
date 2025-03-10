@@ -1,2 +1,2 @@
 # katsuma.tv
-katsuma.tv website built with Next.js
+katsuma.tv website built with react-router.
