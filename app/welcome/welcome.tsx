@@ -2,13 +2,13 @@ import avatar from '/me.jpg';
 
 export function Welcome() {
   return (
-    <main className="w-[800px] p-8 mx-auto my-0">
+    <main className="p-8 mx-auto my-0 w-full md:w-[800px]">
       <header className="text-center flex flex-row item-center mb-8">
-        <img alt="Ryo Katsuma" src={avatar} width={80} height={80} className="rounded-[9999px]" />
-        <h1 className="ml-4 line-height-[1.15rem] text-[3rem] font-bold flex">Ryo Katsuma</h1>
+        <img alt="Ryo Katsuma" src={avatar} className="rounded-[9999px] w-[80px] h-[80px]" />
+        <h1 className="ml-4 line-height-[1.15rem] text-[2.5rem] md:text-[3rem] mt-3 md:mt-0 font-bold flex">Ryo Katsuma</h1>
       </header>
 
-      <div className="w-[800px] p-0 m-0 mb-8">
+      <div className="p-0 m-0 mb-8">
         <div className="mb-8">
           <h2 className="mb-4 line-height-[1.15rem] text-[2rem] font-bold">Job</h2>
           <dl>
