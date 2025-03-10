@@ -1,26 +1,31 @@
 {
   "name": "katsuma.tv",
-  "version": "0.1.0",
   "private": true,
-  "license": "MIT",
+  "type": "module",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "build": "react-router build",
+    "dev": "react-router dev",
+    "start": "react-router-serve ./build/server/index.js",
+    "typecheck": "react-router typegen && tsc"
   },
   "dependencies": {
-    "@types/node": "18.11.9",
-    "@types/react": "18.0.25",
-    "@types/react-dom": "18.0.9",
-    "@vercel/analytics": "^0.1.5",
-    "eslint": "8.28.0",
-    "eslint-config-next": "13.0.4",
-    "next": "^15.1.7",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "sass": "^1.56.1",
-    "scss": "^0.2.4",
-    "typescript": "5.1.6"
+    "@react-router/node": "^7.3.0",
+    "@react-router/serve": "^7.3.0",
+    "isbot": "^5.1.17",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router": "^7.3.0"
+  },
+  "devDependencies": {
+    "@react-router/dev": "^7.3.0",
+    "@tailwindcss/vite": "^4.0.0",
+    "@types/node": "^20",
+    "@types/react": "^19.0.1",
+    "@types/react-dom": "^19.0.1",
+    "react-router-devtools": "^1.1.0",
+    "tailwindcss": "^4.0.0",
+    "typescript": "^5.7.2",
+    "vite": "^5.4.11",
+    "vite-tsconfig-paths": "^5.1.4"
   }
 }
