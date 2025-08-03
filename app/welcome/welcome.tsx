@@ -3,16 +3,21 @@ import avatar from '/me.jpg';
 export function Welcome() {
   return (
     <main className="p-8 mx-auto my-0 w-full md:w-[800px]">
-      <header className="text-center flex flex-row item-center mb-8">
+      <header className="text-center flex flex-row items-center mb-8">
         <img alt="Ryo Katsuma" src={avatar} className="rounded-[9999px] w-[80px] h-[80px]" />
-        <h1 className="ml-4 line-height-[1.15rem] text-[2.5rem] md:text-[3rem] mt-3 md:mt-0 font-bold flex">Ryo Katsuma</h1>
+        <h1 className="ml-4 line-height-[1.15rem] text-[2.25rem] md:text-[3rem] md:mt-0 font-bold flex items-center">Ryo Katsuma</h1>
       </header>
 
       <div className="p-0 m-0 mb-8">
         <div className="mb-8">
           <h2 className="mb-4 line-height-[1.15rem] text-[2rem] font-bold">Job</h2>
           <dl>
-            <dt><a href="https://info.cookpad.com">Cookpad Inc.</a>(May 2009 - Current)</dt>
+            <dt><a href="https://corp.mosh.jp">Mosh Inc.</a>(Aug 2025 - Current)</dt>
+            <dd className="mb-4 ml-0">Staff Engineer</dd>
+          </dl>
+
+          <dl>
+            <dt><a href="https://info.cookpad.com">Cookpad Inc.</a>(May 2009 - Jul 2025)</dt>
             <dd className="mb-4 ml-0">Engineer, Manager</dd>
           </dl>
 
@@ -39,7 +44,6 @@ export function Welcome() {
           <h2 className="mb-4 line-height-[1.15rem] text-[2rem] font-bold">On the web services</h2>
 
           <ul className="ml-[-1.5rem] list-disc">
-            <li className="ml-10 my-2"><a href="https://blog.katsuma.tv">Blog</a></li>
             <li className="ml-10 my-2"><a href="https://x.com/ryo_katsuma">X</a></li>
             <li className="ml-10 my-2"><a href="https://github.com/katsuma">GitHub</a></li>
             <li className="ml-10 my-2"><a href="https://facebook.com/katsuma">Facebook</a></li>
